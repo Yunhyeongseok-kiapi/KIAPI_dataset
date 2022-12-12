@@ -22,4 +22,4 @@
 * 인프라 데이터는 국제 표준 SAE J2735 데이터 규격을 따름  
   * SAE J2735는 V2V/V2I 통신을 위한 메시지, 데이터 프레임, 요소 형식 및 구조 등 신호 규격에 대한 정의를 포함하고 있음  
   * 2017년 기준으로 메시지 17개, 데이터 프레임 156개, 데이터 요소 230개, 외부 정의 참조 데이터 요소 58개로 구성되어 있고, 개체들은 ASN(Abstract Syntax Notation 1) 방식으로 정의되어 있음
-* 본 데이터셋은 SAE J2735 메시지 중 가장 많이 사용되는 BSM(Basic Safety Message), SPaT(Signal Phase and Timing), RSA(Road Side Alert), TIM(Traveler Information Message)와 관련된 데이터를 공유함
+* 본 데이터셋은 SAE J2735 메시지 중 가장 많이 사용되는 PVD(Probe Vehicle Data), SPaT(Signal Phase and Timing), RSA(Road Side Alert), TIM(Traveler Information Message)와 관련된 데이터를 공유함
