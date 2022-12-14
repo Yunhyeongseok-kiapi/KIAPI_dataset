@@ -71,7 +71,7 @@
 * C-ITS의 기능들로 정지차량, 저속차량, 낙하물, 보행자, 역주행 등의 정보를 전달함
   ##### rsu_accident 구조 정의
   |  Name | Type   |  Unit  |   Value   |   Description    | 
-  |:-----:|:-----: |:------:|:---------|------------------|  
+  |:-----:|:-----: |:------:|:---------|------------------ |  
   |lod_id          |bigint  |-            |-                              |데이터 log id|
   |rsu_id          |integer |-            |-                              |rsu id|
   |detect_id	      |integer	|-    	       |INTEGER (1..65535)	            |돌발감지기에서 부여한 객체 id|
@@ -82,6 +82,26 @@
   |detect_direction|integer |0.0125 deg   |	INTEGER (0..28800)	            |객체의 방향 정보|
   |created_time    |date    |-            |-                               |메시지 생성 시간|
   
-  #### 4) TIM data(rsu_tim.csv)
+#### 4) TIM data(rsu_tim.csv)
 * 교통정보, 도로운영 정보 등 다양한 유형의 정보를 교통정보센터(관제센터, 기지국 등)를 통해 전달함
 * 실증도로 내 구축된 RSU에 대한 정보를 제공함
+  ##### rsu_tim 구조 정의
+  |  Name | Type   |  Unit  |   Value   |   Description    | 
+  |:-----:|:-----: |:------:|:---------|------------------ |  
+  |lod_id            |bigint   |-            |-                              |데이터 log id|
+  |rsu_id            |integer  |-            |-                              |rsu id|
+  |frame_type        |integer  |-            |0 : Unknown </br> 1 : 주의(Advisory) </br> 2 : 도로 표지판 </br> 3 : 상업 간판 | 주변 위험 요소에 대한 프레임 유형|
+  |furtherinfo_id  	 |integer  |-            |-                              |다른 메시지에 대한 링크 번호|
+  |duration          |integer  |minute       |INTEGER (0..32000)             |생성된 메시지의 지속 시간(최대 22.2일)|
+  |priority	         |integer	 |-	           |INTEGER (0..255)	              |경고 메시지 내 정보 우선순위
+  |entrance_longitude|integer  |$10^{-7}$ deg|INTEGER (-179999999..180000001)|터널, 교차로 등의 입구 경도 정보|
+  |entrance_latitude |integer  |$10^{-7}$ deg|INTEGER (-900000000..900000001)|터널, 교차로 등의 입구 위도 정보|
+  |entrance_direction|integer  |	0.00549 deg |INTEGER (0..65535)  	          |터널, 교차로 등의 입구 방향 정보| 
+  |entrance_radius   |integer  |-	           |INTEGER (0..4095)	             |터널, 교차로 등의 입구 반지름 정보|
+  |exit_longitude    |integer  |$10^{-7}$ deg|INTEGER (-179999999..180000001)|터널, 교차로 등의 출구 경도 정보|
+  |exit_latitude     |character|$10^{-7}$ deg|INTEGER (-900000000..900000001)|터널, 교차로 등의 출구 위도 정보|
+  |exit_direction    |integer  |0.00549 deg  |INTEGER (0..65535)	            |터널, 교차로 등의 출구 방향 정보|
+  |exit_radius       |integer  |-	           |INTEGER (0..4095)	             |터널, 교차로 등의 출구 반지름 정보|
+  |itiscode          |integer  |-            |J2540(DE_ITIS) 참조	</br> - 8032 : intersection </br> - 8028 : crossover </br> - 8229 : bridge </br> - 8233 : tunnel |ITIS 도로 유형 코드
+  |advisory          |character|-            |J2540(DE_ITIS) 참조             |ITIS 도로 유형 텍스트|
+  |created_time      |date     |-            |-                               |메시지 생성 시간|
