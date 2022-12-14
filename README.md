@@ -58,8 +58,11 @@
   ##### rsu_signal 구조 정의
   |  Name | Type  |  Unit  |   Value   |   Description    | 
   |:-----:|:-----:|:------:|:---------:|------------------|  
-
-
+  |lod_id         |bigint  |-            |-                              |데이터 log id|
+  |rsu_id         |integer |-            |-                              |rsu id|
+  |intersection_id|integer	|-            |INTEGER (0..65535)             |교차로 id|
+  |signal_group   |integer	|-            |INTEGER (0..255)	              |각 교차로의 신호등 정보|
+  |signal_state	  |integer |-	           |0 : 알수없음 or 에러	각 교차로 신호등의 신호현시 정보
 
 
   
