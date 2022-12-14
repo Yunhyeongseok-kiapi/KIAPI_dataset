@@ -34,4 +34,14 @@
   |  Name | Type  |  Unit  |   Value   |   Description    | 
   |:-----:|:-----:|:------:|:---------:|------------------|  
   |lod_id|bigint|-|-|데이터 log id|
+  |obu_id|integer|-|-|obu id|
+  |Latitude|integer|$10^{-7}$ deg|INTEGER (-900000000..900000001)|차량의 위도 정보|
+  |Longitude|integer|$10^{-7}$ deg|INTEGER (-179999999..180000001)|차량의 경도 정보|
+
+
+
+
+
+
+  
   
