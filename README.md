@@ -5,6 +5,7 @@
 ### Download#1 PVD Data(19.7M)   : [Download](http://gofile.me/5HZpx/Ah4coBH2c)
 ### Download#2 SPaT data(22.69G) : [Download](http://gofile.me/5HZpx/czDPUbTgr)
 ### Download#3 RSA data(41.15G)  : [Download](http://gofile.me/5HZpx/hLF1XZ6Dh)
+### Download#4 TIM data(5.34G)   : [Download](http://gofile.me/5HZpx/ISVd3ygzb)
 
 ### 1. 개요  
 ### infra envrionment  
