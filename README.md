@@ -62,7 +62,9 @@
   |rsu_id         |integer |-            |-                              |rsu id|
   |intersection_id|integer	|-            |INTEGER (0..65535)             |교차로 id|
   |signal_group   |integer	|-            |INTEGER (0..255)	              |각 교차로의 신호등 정보|
-  |signal_state	  |integer |-	           |0 : 알수없음 or 에러	각 교차로 신호등의 신호현시 정보
+  |signal_state	  |integer |-	           |0 : 알수없음 or 에러 </br> 1 : 신호 없음 </br> 2, 3 : 적색 신호 </br> 4, 5, 6 : 녹색 신호 </br> 7, 8, 9 : 황색 신호 |	각 교차로 신호등의 신호현시 정보|
+  |remain time    |integer |-            |INTEGER (0..38001)             |다음 신호 변경까지의 잔여 시간|
+  |created_time  |date     |-            |-                              |메시지 생성 시간|
 
 
   
