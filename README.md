@@ -27,7 +27,7 @@
   * SAE J2735는 V2V/V2I 통신을 위한 메시지, 데이터 프레임, 요소 형식 및 구조 등 신호 규격에 대한 정의를 포함하고 있음  
   * 2017년 기준으로 메시지 17개, 데이터 프레임 156개, 데이터 요소 230개, 외부 정의 참조 데이터 요소 58개로 구성되어 있고, 개체들은 ASN(Abstract Syntax Notation 1) 방식으로 정의되어 있음
 * 본 데이터셋은 도로 내 구축된 RSU 장비별 C-ITS 메시지 수집 데이터(PVD(Probe Vehicle Data), SPaT(Signal Phase and Timing), RSA(Road Side Alert), TIM(Traveler Information Message))를 공유함
-#### 1) Pvd_data(obu_state.csv)
+#### 1) PVD data(obu_state.csv)
 * 차량 운행 행테에 관한 정보를 포함하고 있음
 * 노변장치(RSU)를 통해 차량의 상태(브레이크 작동 여부 등), 위치(경도, 위도, 고도), 운행정보(방향, 감가속도 등)를 포함하고 있으며, 이벤트 발생 시 위치 및 시간정보를 송신함  
   ##### obu_state 구조 정의
@@ -52,7 +52,12 @@
   |created_time  |date     |-            |-                              |메시지 생성 시간|
   |rssi          |integer  |dm           |-                              |수신 신호 세기(강도) 정보|
 
-
+#### 2) SPaT data(rsu_signal.csv)
+* 교차로의 상세 정보를 포함하고 있음
+* 인프라에서 차량으로 제공되는 I2V(Intra to Vehicle) 메시지로써, 교차로의 현재 및 다음 제어 상태를 의미함
+  ##### rsu_signal 구조 정의
+  |  Name | Type  |  Unit  |   Value   |   Description    | 
+  |:-----:|:-----:|:------:|:---------:|------------------|  
 
 
 
