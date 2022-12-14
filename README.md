@@ -33,10 +33,24 @@
   ##### obu_state 구조 정의
   |  Name | Type  |  Unit  |   Value   |   Description    | 
   |:-----:|:-----:|:------:|:---------:|------------------|  
-  |lod_id|bigint|-|-|데이터 log id|
-  |obu_id|integer|-|-|obu id|
-  |Latitude|integer|$10^{-7}$ deg|INTEGER (-900000000..900000001)|차량의 위도 정보|
-  |Longitude|integer|$10^{-7}$ deg|INTEGER (-179999999..180000001)|차량의 경도 정보|
+  |lod_id         |bigint  |-            |-                              |데이터 log id|
+  |obu_id        |integer  |-            |-                              |obu id|
+  |Latitude      |integer  |$10^{-7}$ deg|INTEGER (-900000000..900000001)|차량의 위도 정보|
+  |Longitude     |integer  |$10^{-7}$ deg|INTEGER (-179999999..180000001)|차량의 경도 정보|
+  |Elevation     |integer  |0.1 m        |INTEGER (-4096..61439)         |차량의	고도 정보|
+  |Velocity	     |integer  |0.02 m/s	    |INTEGER (0..8191)              |차량의	속도 정보|
+  |Accel_lon     |integer  |0.01 $m/s^2$ |	INTEGER (-2000..2001)         |종방향 가속도 정보|
+  |Accel_lat     |integer  |0.01 $m/s^2$ |	INTEGER (-2000..2001)         |횡방향 가속도 정보|
+  |Accel_yaw     |integer  |0.01 deg/sec |	INTEGER (-32767..32767)       |	yaw 가속도 정보|
+  |Heading	      |integer  |0.0125 deg  	|INTEGER (0..28800)             |차량의	방향 정보|
+  |Steering_angle|integer  |1.5 deg      |INTEGER (-126..127)            |차량의 조향각 정보|
+  |Brake	        |character|-	           |-	                             |브레이크 동작 여부|
+  |Brake_pressure|integer	 |-	           |-	                             |브레이크 압력 정보|
+  |Transmission_state|integer|-          | 0x00 : Neutral </br> 0x01 : Parking </br> 0x02 : Drive </br> 0x03 : Rear | 차량 기어 변속 정보|
+  |Exterior_light|integer  |-            | 0 : Low-beam </br> 1 : High-beam </br> 2 : Left turn </br> 3 : Right turn </br> 4 : Hazard signal | 차량 외부등 상태 정보|
+  |rsu_id        |integer  |-            |-                              |rsu id|
+  |created_time  |date     |-            |-                              |메시지 생성 시간|
+  |rssi          |integer  |dm           |-                              |수신 신호 세기(강도) 정보|
 
 
 
