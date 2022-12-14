@@ -82,4 +82,6 @@
   |detect_direction|integer |0.0125 deg   |	INTEGER (0..28800)	            |객체의 방향 정보|
   |created_time    |date    |-            |-                               |메시지 생성 시간|
   
-  
+  #### 4) TIM data(rsu_tim.csv)
+* 교통정보, 도로운영 정보 등 다양한 유형의 정보를 교통정보센터(관제센터, 기지국 등)를 통해 전달함
+* 실증도로 내 구축된 RSU에 대한 정보를 제공함
