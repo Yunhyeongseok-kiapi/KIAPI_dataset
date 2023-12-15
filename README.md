@@ -1,6 +1,6 @@
 # KIAPI_dataset
 ## Korea Intelligent Automotive Parts Promotion Institute(KIAPI) <img src="https://github.com/Yunhyeongseok-kiapi/KIAPI_dataset/assets/85465084/9304bae8-7878-4b71-853f-08cff6392d4e" width="300" height ="100">
-## Infra Dataset
+## Autonomous Driving Data
 
 ### Download#1 Autonomous Driving Data(with V2X)(19.7M)   : [Download](http://gofile.me/5HZpx/Ah4coBH2c)
 
@@ -8,11 +8,10 @@
 ※ 차량에 장착된 센서 데이터와 실증도로 기반의 V2X 데이터를 포함하고 있음
 
 ### 1. 개요  
-### infra envrionment  
-  * 인프라 데이터는 도심로 2.4km, 자동차전용도로 12.9km 총 15.3km에 구축되어있는 대구 실증지역(대구 달성군 테크노폴리스로 일대)에서 계측을 진행하였음  
-  * 신호등, 합류/분기로, 지·정체 구간 등의 데이터 계측이 가능
-  * RSU, 돌발상황 검지기, 보행자검지기, 측위보정기준국 등의 인프라가 구축되어 있음  
-  * 차량간 무선 통신을 통하여 돌발상황 정보를 전송하고 지능형 교통체계와 연동하여 실시간 교통 정보 제공이 가능
+### Autonomous vehicle  
+  * 차종(차명) : 승용(현대 IONIQ electric)  
+  * Radar, Lidar 2대, GPS, Camera, OBU 장치가 장착되어 있음
+<img src="https://github.com/Yunhyeongseok-kiapi/KIAPI_dataset/assets/85465084/98408c85-9d99-46f7-8550-357abb3a0c7e" width="650" height="350"> 
   #### 인프라 구성
    |  인프라 | 수량  |  설명  |  
    |:---------:|:--------:|--------------------------|  
