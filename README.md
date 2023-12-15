@@ -1,5 +1,6 @@
 # KIAPI_dataset
-## Korea Intelligent Automotive Parts Promotion Institute(KIAPI) <img src="https://github.com/Yunhyeongseok-kiapi/KIAPI_dataset/assets/85465084/9304bae8-7878-4b71-853f-08cff6392d4e" width="300" height ="100">
+## Korea Intelligent Automotive Parts Promotion Institute(KIAPI) 
+## <img src="https://github.com/Yunhyeongseok-kiapi/KIAPI_dataset/assets/85465084/9304bae8-7878-4b71-853f-08cff6392d4e" width="300" height ="100">
 ## Autonomous Driving Data
 
 ### Download#1 Autonomous Driving Data(with V2X)(19.7M)   : [Download](http://gofile.me/5HZpx/Ah4coBH2c)
@@ -12,17 +13,13 @@
   * 차종(차명) : 승용(현대 IONIQ electric)  
   * Radar, Lidar 2대, GPS, Camera, OBU 장치가 장착되어 있음
 <img src="https://github.com/Yunhyeongseok-kiapi/KIAPI_dataset/assets/85465084/98408c85-9d99-46f7-8550-357abb3a0c7e" width="650" height="350"> 
-  #### 인프라 구성
-   |  인프라 | 수량  |  설명  |  
-   |:---------:|:--------:|--------------------------|  
-   | RSU | 18식 | 차량과 차량, 차량과 인프라 간 통신이 가능한 WAVE 통신 기지국 </br> - (상행) 일부 터널을 제외한 모든 구간 WAVE 통신 가능 </br> - (하행) 터널을 제외한 모든 구간 WAVE 통신 가능 |  
-   | 돌발상황검지기 | 3식 | 도로에서 발생하는 돌발상황(역주행, 정지차, 보행자, 지·정체 등) 검지(SAE J2735 - RSA) </br> - 합류로 분기로, 교통 정체 구간에 설치(김흥, 기세, 본리) </br> - C-ITS 서비스 중 3가지(합류로, 분기로, 교통 정체 구간) 제공 가능
-   | 보행자검지기 | 2식 | 횡단보도 주변에서 발생하는 돌발상황(보행자 무단횡단 및 정상횡단 등) 검지 </br> - 유가사입구사거리, 휴양림입구사거리에 설치 |
-   | 신호제어기 | 4식 | 신호등 주기 및 현시 정보를 차량에 제공(J2735 - SPaT) </br> - 유가입구사거리, 휴양림입구사거리, 수목원 3주차장, 수목원 2주차장에 설치 |
-   | CCTV | 8식 | 시험차량 거동 정보 추적 및 녹화를 통한 영상 데이터 제공 </br> - 유가사입구사거리, 휴양림입구사거리에 설치 |
-   | 측위보정기준국 | 1식 | DGPS 원리를 이용하여 실증도로 구간에서 정밀한 차량 위치 정보 제공 </br> - 테크노폴리스로 중간지점에 설치 |
-   | RFID | 2식 | 시험 차량 식별 및 테스트 시작/종료 시점 정보 제공 </br> - 유가사입구사거리 및 휴양림입구사거리에 설치 |
-<img src="https://user-images.githubusercontent.com/85465084/206636026-c0faf0ff-6fd6-44a3-ad7e-f188941b2c34.PNG" width="850" height="330">  
+
+#### 데이터 수집 리스트
+  * 주행 데이터는 Ubuntu(Linux)의 ROS 환경 기반의 bag 포맷으로 계측을 진행하였음
+  * 센서 데이터 및 차량에서 계측된 주행 데이터의 목록은 다음과 같음
+  * 수집 데이터의 구조는 ROS에서 제공되는 구조와 자체 정의한 custom_msgs로 구성되어 있음
+    (custom_msgs의 상세 구조는 과제 관련 2차년도 KIAPI 기술문서(엣지 인프라 및 자율주행차량 데이터 융복합 InterFace 구성 방안 설계서)에 정의되어 있음)
+<img src="https://github.com/Yunhyeongseok-kiapi/KIAPI_dataset/assets/85465084/88d2a6f0-d19c-4efd-972b-025f06e6bcb1" width="612" height="682">  
 
 ### 2. 데이터셋  
 * 인프라 데이터는 국제 표준 SAE J2735 데이터 규격을 따름  
