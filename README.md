@@ -26,9 +26,12 @@
   * 약 140km 주행에 관한 데이터로 약 350GB
   * Linux(Ubuntu) ROS환경에서 제공되는 bag 포맷으로 저장
   * 대구 실증도로를 비롯한 주변 도로를 주행하면서 계측을 진행
-  * 주행 경로
-<img src="![230919_주행경로](https://github.com/Yunhyeongseok-kiapi/KIAPI_dataset/assets/85465084/d4812db0-5712-483b-9be5-05802c870d5f)" width="800" height="300">
-  * 주행 거리
-<img src="![230919_주행경로](https://github.com/Yunhyeongseok-kiapi/KIAPI_dataset/assets/85465084/b7d57311-14bd-4b58-b5d8-921d2198d27a)" width="800" height="300">
-  * 운행 정보 예시
-<img src="![230919_차량운행데이터](https://github.com/Yunhyeongseok-kiapi/KIAPI_dataset/assets/85465084/ed1465a1-063c-424c-93ba-598626b87935)" width="800" height="500">  
+    
+* <주행 경로>
+<img src="https://github.com/Yunhyeongseok-kiapi/KIAPI_dataset/assets/85465084/d4812db0-5712-483b-9be5-05802c870d5f" width="800" height="300">
+
+* <주행 거리>
+<img src="https://github.com/Yunhyeongseok-kiapi/KIAPI_dataset/assets/85465084/8bc505fc-fb99-4b23-adfa-cdc4a4549b16" width="800" height="300">
+
+* <운행 정보 예시>
+<img src="https://github.com/Yunhyeongseok-kiapi/KIAPI_dataset/assets/85465084/ed1465a1-063c-424c-93ba-598626b87935" width="800" height="500">  
