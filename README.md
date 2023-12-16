@@ -3,7 +3,17 @@
 ## <img src="https://github.com/Yunhyeongseok-kiapi/KIAPI_dataset/assets/85465084/9304bae8-7878-4b71-853f-08cff6392d4e" width="300" height ="100">
 ## Autonomous Driving Data
 
-### Download#1 Autonomous Driving Data(with V2X)(19.7M)   : [Download](http://gofile.me/5HZpx/Ah4coBH2c)
+### Download#1 Autonomous Driving(with V2X)        
+
+#### Data #1   : [Download](https://gofile.me/7eXA5/zflXSoUeo)     
+
+#### Data #2   : [Download](https://gofile.me/7eXA5/Gc8NbNusp)         
+
+#### Data #3   : [Download](https://gofile.me/7eXA5/hBCu2ySd6)      
+
+#### Data #4   : [Download](https://gofile.me/7eXA5/5VMLTsti0)         
+
+#### Data #5   : [Download](https://gofile.me/7eXA5/0spcqUr01)               
 
 ※ **자율주행차량의 주행 데이터는 2023년 9월 19일에 실제 차량을 통해 계측한 데이터임**  
 ※ 차량에 장착된 센서 데이터와 실증도로 기반의 V2X 데이터를 포함하고 있음
