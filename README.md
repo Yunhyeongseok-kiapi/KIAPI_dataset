@@ -3,7 +3,7 @@
 ## <img src="https://github.com/Yunhyeongseok-kiapi/KIAPI_dataset/assets/85465084/9304bae8-7878-4b71-853f-08cff6392d4e" width="300" height ="100">
 ## Autonomous Driving Data
 
-### Download#1 Autonomous Driving(with V2X)        
+### Download Autonomous Driving(with V2X)        
 
 #### Data #1   : [Download](https://gofile.me/7eXA5/zflXSoUeo)     
 
