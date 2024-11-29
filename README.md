@@ -41,12 +41,17 @@
 
 
 #### 데이터 수집 리스트
-### Autonomous vehicle  
+##### 1) Autonomous vehicle  
   * 주행 데이터는 Ubuntu(Linux)의 ROS 환경 기반의 bag 포맷으로 계측을 진행하였음
   * 센서 데이터 및 차량에서 계측된 주행 데이터의 목록은 다음과 같음
   * 수집 데이터의 구조는 ROS에서 제공되는 구조와 자체 정의한 custom_msgs로 구성되어 있음
     (custom_msgs의 상세 구조는 과제 관련 2차년도 KIAPI 기술문서(엣지 인프라 및 자율주행차량 데이터 융복합 InterFace 구성 방안 설계서)에 정의되어 있음)
-<img src="https://github.com/Yunhyeongseok-kiapi/KIAPI_dataset/assets/85465084/88d2a6f0-d19c-4efd-972b-025f06e6bcb1" width="612" height="682">  
+<img src="https://github.com/Yunhyeongseok-kiapi/KIAPI_dataset/assets/85465084/88d2a6f0-d19c-4efd-972b-025f06e6bcb1" width="612" height="682">
+
+##### 2) Simulation  
+   * 주행 데이터는 Ubuntu(Linux)의 ROS 환경 기반의 bag 포맷으로 계측을 진행하였음
+   * 센서 데이터 및 차량에서 계측된 데이터의 목록은 다음과 같음
+
 
 ### 2. 데이터 환경  
 * 2023년 9월 19일에 실제 자율주행차량을 통해 계측한 데이터  
