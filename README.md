@@ -65,6 +65,7 @@
 ※ CARLA 관련 내용은 CARAL 시뮬레이션 Git(https://github.com/carla-simulator/carla.git)을 참고
 
 ### 2. 데이터 환경  
+##### 1) Autonomous vehicle  
 * 2023년 9월 19일에 실제 자율주행차량을 통해 계측한 데이터  
   * 약 140km 주행에 관한 데이터로 약 350GB
   * Linux(Ubuntu) ROS환경에서 제공되는 bag 포맷으로 저장
