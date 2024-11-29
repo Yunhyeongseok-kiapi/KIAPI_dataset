@@ -62,6 +62,7 @@
     /carla/objects                                        // 주변 객체들의 상태 정보  
     /carla/traffic_lights/info                            // 교차로 내 신호등 정보  
     /carla/traffic_lights/status                          // 교차로 내 신호등 현시정보  
+※ CARLA 관련 내용은 CARAL 시뮬레이션 Git(https://github.com/carla-simulator/carla.git)을 참고
 
 ### 2. 데이터 환경  
 * 2023년 9월 19일에 실제 자율주행차량을 통해 계측한 데이터  
