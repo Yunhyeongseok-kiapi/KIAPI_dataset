@@ -50,8 +50,18 @@
 
 ##### 2) Simulation  
    * 주행 데이터는 Ubuntu(Linux)의 ROS 환경 기반의 bag 포맷으로 계측을 진행하였음
-   * 센서 데이터 및 차량에서 계측된 데이터의 목록은 다음과 같음
-
+   * 센서 데이터 및 차량에서 계측된 데이터의 목록은 다음과 같음  
+    /carla/ego_vehicle/gnss                               // 자차량의 gnss 정보  
+    /carla/ego_vehicle/imu                                // 자차량의 imu 정보  
+    /carla/ego_vehicle/lidar                              // Simulation의 Lidar 센서 정보  
+    /carla/ego_vehicle/odometry                           // 자차량의 odometry 정보  
+    /carla/ego_vehicle/rgb_front/image/compressed         // Simulation의 Camera 센서 정보  
+    /carla/ego_vehicle/target_speed                       // 자차량의 목표 속도 정보  
+    /carla/ego_vehicle/vehicle_info                       // 자차량의 차량 내부 정보  
+    /carla/ego_vehicle/vehicle_status                     // 자차량의 차량 상태 정보  
+    /carla/objects                                        // 주변 객체들의 상태 정보  
+    /carla/traffic_lights/info                            // 교차로 내 신호등 정보  
+    /carla/traffic_lights/status                          // 교차로 내 신호등 현시정보  
 
 ### 2. 데이터 환경  
 * 2023년 9월 19일에 실제 자율주행차량을 통해 계측한 데이터  
